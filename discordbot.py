@@ -13,9 +13,18 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
 
 
-@bot.command()
+@bot.command("test")
 async def ping(ctx):
     await ctx.send('pong')
-
-
+    
+    
+@bot.command("zh-caution")
+async def tip(ctx):
+    await ctx.send('請小心您的隊伍、符文、魂魔吧！')
+    
+    
+@bot.command("zh-caution")
+async def tip(ctx):
+    await ctx.send('請小心您的隊伍、符文、魂魔吧！')
+    
 bot.run(token)
