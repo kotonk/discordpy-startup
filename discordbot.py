@@ -13,9 +13,6 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
 
 
-@bot.command("test")
-async def ping(ctx):
-    await ctx.send('pong')
     
     
 @bot.command("zh-caution")
