@@ -19,7 +19,7 @@ async def ping(ctx):
     
     
 @bot.command("zh-caution")
-async def tip(ctx):
+async def tips(ctx):
     await ctx.send('請小心您的隊伍、符文、魂魔吧！')
     
     
