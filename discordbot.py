@@ -23,8 +23,4 @@ async def tip(ctx):
     await ctx.send('請小心您的隊伍、符文、魂魔吧！')
     
     
-@bot.command("zh-caution")
-async def tip(ctx):
-    await ctx.send('請小心您的隊伍、符文、魂魔吧！')
-    
 bot.run(token)
